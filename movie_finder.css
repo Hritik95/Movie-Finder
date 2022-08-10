@@ -60,12 +60,31 @@ body{
     width: 700px;
 }
 
+@media (max-width: 800px) {
+    .card{
+        width: 300px;
+        display: block;
+    }
+    .movie_title{
+        margin: 0px 0px;
+    }
+    .movie_description{
+        margin-left: -250px;
+    }
+}
+
+@media (min-width: 800px) {
+    .movie_description{
+        margin-left: -230px;
+    }
+}
+
 .movie_title{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 300px;
-    margin: 0px 200px;
+    margin: 0px 250px;
 }
 
 .value{
@@ -73,6 +92,5 @@ body{
     width: 200px;
 }
 
-.movie_description{
-    margin-left: -80px;
-}
+
+
