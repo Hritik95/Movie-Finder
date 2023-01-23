@@ -13,7 +13,7 @@ Movie Finder used to find particular with is name as input. We have used OMDb Ap
 
 ## Tools Used
 
-- Visual stdio code
+- Visual studio code
 
 - git bash
 
